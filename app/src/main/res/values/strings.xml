@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">cToF</string>
+    <string name="c_to_f_converter">C to F Converter</string>
+    <string name="enter_a_number">Enter a Number!</string>
+    <string name="convert">Convert!</string>
 </resources>

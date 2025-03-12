@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
             double celsius = Double.parseDouble(valueFromDisplay);
             fahrenheit = Utils.ctof(celsius);
         }
-        binding.CtoFConvertedValueTextView.setText(fahrenheit + "");
+        String roundedF = String.format("%.2f", fahrenheit);
+        binding.CtoFConvertedValueTextView.setText(roundedF);
     }
 }

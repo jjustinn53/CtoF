@@ -43,12 +43,16 @@
         app:layout_constraintTop_toBottomOf="@+id/CtoFEnteredValueeditText" />
 
     <TextView
+        android:id="@+id/CtoFConvertedValueTextView"
         android:layout_width="250dp"
         android:layout_height="80dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/CtoFConvertButton"
-        tools:text="-40.40" />
+        tools:text="-40.40"
+        android:gravity="center"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
